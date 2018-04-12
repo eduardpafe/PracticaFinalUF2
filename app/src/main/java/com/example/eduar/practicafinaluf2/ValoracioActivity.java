@@ -181,7 +181,7 @@ public class ValoracioActivity extends AppCompatActivity {
         reproductor = null;
     }
 
-    private void guardarDades() throws FileNotFoundException, IOException {
+    private void guardarDades() throws IOException {
         //Pujem la foto
         StorageReference filePath = myStorage.child("valoracions").child(fitxer.getAbsolutePath());
 

@@ -8,16 +8,12 @@ import android.widget.Button;
 import android.widget.VideoView;
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
-import com.google.android.youtube.player.YouTubePlayer;
-import com.google.android.youtube.player.YouTubePlayerView;
 
 public class VideoActivty extends YouTubeBaseActivity {
     private static final String TAG = "VideoActivity";
-    Button playVideoYoutube, playVideoNormal;
-    YouTubePlayerView mYoutubePlayerView;
+    Button playVideoNormal;
     VideoView mVideoView;
     private MediaController mediaController;
-    YouTubePlayer.OnInitializedListener mOnInitializedListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,10 +21,10 @@ public class VideoActivty extends YouTubeBaseActivity {
         setContentView(R.layout.activity_video_activty);
 
 
-        playVideoNormal = (Button) findViewById(R.id.btnPlayVideoNormal);
-        mVideoView = (VideoView) findViewById(R.id.videoViewNormal);
+        playVideoNormal = findViewById(R.id.btnPlayVideoNormal);
+        mVideoView = findViewById(R.id.videoViewNormal);
 
-        //Carraguem el vídeo normal
+        //carraguem el video normal
         mediaController = new MediaController(this);
         Uri uriVideo = Uri.parse("android.resource://com.example.eduar.practicafinaluf2/"+R.raw.video_vinya_presentacio);
         mVideoView.setVideoURI(uriVideo);
