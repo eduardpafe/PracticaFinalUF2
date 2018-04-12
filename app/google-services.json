@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "776478760381",
+    "firebase_url": "https://practicafinaluf2.firebaseio.com",
+    "project_id": "practicafinaluf2",
+    "storage_bucket": "practicafinaluf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776478760381:android:eccdc6781a231eab",
+        "android_client_info": {
+          "package_name": "com.example.eduar.practicafinaluf2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776478760381-2142djhont4q5gn1e7r5vfk1pfe02stm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eduar.practicafinaluf2",
+            "certificate_hash": "e62895198d7baaa752a93f12f923dce39b46ce81"
+          }
+        },
+        {
+          "client_id": "776478760381-vc3hmmd8utv6mvg6jei562dqnes2s00d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl43oZFUMLmImQ7AEl30YrEkbvekkHBf0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776478760381-vc3hmmd8utv6mvg6jei562dqnes2s00d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
