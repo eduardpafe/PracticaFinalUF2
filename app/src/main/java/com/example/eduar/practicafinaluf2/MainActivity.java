@@ -80,10 +80,9 @@ public class MainActivity extends AppCompatActivity {
         btnAfegir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent menuActivity = new Intent(getApplicationContext(), MenuActivity.class);
-                startActivity(menuActivity);
-//                guardarDades();
-
+                /*Intent menuActivity = new Intent(getApplicationContext(), MenuActivity.class);
+                startActivity(menuActivity);*/
+                guardarDades();
             }
         });
 
@@ -200,12 +199,12 @@ public class MainActivity extends AppCompatActivity {
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
                 public void onFailure(@NonNull Exception e) {
-                    Toast.makeText(MainActivity.this, "No s'ha pujat correctament la imatge", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "No s'ha pujat correctament", Toast.LENGTH_LONG).show();
 
                 }
             });
 
-            Toast.makeText(this, "Registre guardat.", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Registre guardat", Toast.LENGTH_LONG).show();
 
 
             //Obrim l'activitat nova, perquè ja haurem registrat les dades
